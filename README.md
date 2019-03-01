@@ -1,10 +1,10 @@
 # Project Name : react-boiler-plate
-*This Project helps in understanding how the "create-react-app" works behind the scence. I built,This react boiler plate project is built using webpack, babel and React.*
+*This Project helps in understanding how the "create-react-app" works behind the scence. This react boiler plate project is built using webpack, babel and React.*
 
 ## Steps to follow to use this boiler-plate.
 <ol>
-<li> You can either clone the repo by using command *git clone https://github.com/Kailashw/webpack-boiler-plate* or simply downloading the zip file from the location. </li>
-<li> Go to the location of donwloaded file and open command prompt.</li>
+<li> You can either clone the repo by using command <b>git clone https://github.com/Kailashw/webpack-boiler-plate </b> or simply downloading the zip file from the location. </li>
+<li> Go to the location of downloaded file and open command prompt.</li>
 <li> Run "npm install"</li>
 <li> Followed by "npm launch" </li>
 </ol>
@@ -13,8 +13,8 @@
 
 Open the command prompt and start executing the following commands sequentially.
 <ol>
-<li>mkdir apprais-bolier-plate </li> // this is the folder that we will work on
-<li>cd apprais-bolier-plate </li> 
+<li>mkdir webpack-bolier-plate </li> // this is the folder that we will work on
+<li>cd webpack-bolier-plate </li> 
 <li>npm init -y </li> // to create a package.json file.
 <li>npm install react react-dom </li> // installing react and react-dom 
 <li>npm install --save-dev @babel/core @babel/preset-env @babel/preset-react css-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server babel-loader </li>
@@ -68,9 +68,6 @@ Open the command prompt and start executing the following commands sequentially.
 * run "npm build" to see your first build exported to 'dist' folder 😊
 * now run the "npm launch" command to see the app working.
 
-
-
-
-
-
-Followed tutorial on  <a href="https://www.youtube.com/watch?v=Zb2mQyQRwqc"> youtube </a>
+<br/>
+<br/>
+NOTE: <b>I have followed <a href="https://www.youtube.com/watch?v=Zb2mQyQRwqc"> this youtube video</a> tutorial but added my own customization on top of it. </b>
