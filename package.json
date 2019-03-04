@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "launch": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open"
   },
   "keywords": [
     "react",
@@ -16,6 +16,7 @@
   "author": "Kailas Walldoddi",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "yarn": "^1.13.0"
