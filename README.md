@@ -65,8 +65,8 @@ Open the command prompt and start executing the following commands sequentially.
         "build": "webpack",
         "launch": "webpack-dev-server --open"
 
-* run "npm build" to see your first build exported to 'dist' folder 😊
-* now run the "npm launch" command to see the app working.
+* run "npm run build" to see your first build exported to 'dist' folder 😊
+* now run the "npm run launch" command to see the app working.
 
 <br/>
 <br/>

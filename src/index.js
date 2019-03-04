@@ -1,17 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
+import React from "react";
+import { render } from "react-dom";
+import dotenv from 'dotenv'
+import Routes from "./routes/routes";
+dotenv.config()
+
+import Header from './components/Header'
 
 class App extends React.Component {
-
-    render() {
-        return (
-            <div> <h1>Hello World. </h1></div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <Header />
+        {this.props.children}
+      </div>
+    );
+  }
 }
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-)
+
+render(<App>
+  <Routes />
+</App>, document.getElementById("app"));
